@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile World Station</title>
+<style>
+body {
+font-family: Arial, Calibri, sans-serif;
+max-width: 935px; /* Use max-width for fluid behavior */
+margin: 0 auto; /*A shorthand for centered margins */
+padding: 20px; /* Add padding to prevent content from touching the screen edges */
+}
+h1 {
+color: #5a1a78;
+font-family: Goudy Old style, Jelvetica, sans-serif;
+}
+h3 {
+color: #24234a;
+font-family: Arial, Calibri, sans-serif;
+}
+
+P {
+
+color: #010101;
+
+}
+a:link {color: #b81273;}
+a:visited {color: #590c39;}
+a:hover {color: #ed40a5;}
+</style>
+
+</head>
+<body>
+<img src="images/banner.jpg" alt="a banner of mobile world station">
+<nav>
+<p>
+<a href="index.htm">Homepage</a> :
+<a href="phone.htm">Phones</a> :
+<a href="access.html">Accessories</a> :
+<a href="insurance.html">Insurance</a> :
+<a href="sim.html">SIM</a> :
+<a href="support.html">Support</a> :
+<a href="forum.html">Forums</a> :
+<a href="contact.html">Contact Us</a>
+</p>
+</nav>
+<h1> Mobile World Station </h1>
+
+<script>
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Modified by Neil Wickham
+//Credit must stay intact for use
+var Digital=new Date()
+var hours=Digital.getHours()
+//Configure message below to your own.
+if (hours>=0&&hours<=5) //MESSAGE FOR NIGHT (00:00-05:59)
+document.write('<b>Good Night, User. Welcome to our website</b>')
+if (hours>=6&&hours<=12) //MESSAGE FOR MORNING (06:00-11:59)
+document.write('<b>Good Morning, User. Welcome to our website</b>')
+else if (hours>12&&hours<=17) //MESSAGE FOR AFTERNOON (12:01-17:00)
+document.write('<b>Good Afternoon, User. Welcome to our website.</b>')
+else //MESSAGE FOR THE REST OF THE DAY (17:00-23:59)
+document.write('<b>Good Evening, User. Welcome to our website.</b>')
+</script>
+
+<p>Mobile World Station is a site dedicated to promoting Phones, Accessories and Services for you. Please click on the images below or use the navigation bar to find Phones, Accessories, Sim deals, Insurance and Support, all for you.</p>
+
+<a href="phone.htm"><img src="images/phone.png" alt="phone image"> </a>
+<a href="support.html"><img src="images/support.jpg" alt="technical support image"></a>
+<a href="sim.html"><img src="images/sim.jpg" alt="sim card"></a>
+<a href="insurance.html"><img src="images/insurance.png" alt="insurance"></a>
+<a href="access.html"><img src="images/access.png" alt="accessories"></a>
+</body>
+</html>
